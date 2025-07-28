@@ -15,16 +15,19 @@ This project automatically extracts the **title and headings** (H1, H2, H3) from
 
 ## 🗂 Project Structure
 
+```
 CHALLENGE_1A/
 ├── app/
-│ └── main.py # Core PDF parsing logic
+│   └── main.py                # Main script to extract headings
 ├── sample_dataset/
-│ ├── pdfs/ # Input PDF files
-│ ├── output/ # Output JSON files
-│ └── schema/ # (Optional) JSON schema definitions
-├── Dockerfile # Dockerfile for containerization
-├── requirements.txt # Python dependencies
-└── README.md # This file
+│   ├── pdfs/                  # Input PDFs
+│   ├── output/                # Output JSON files
+│   └── schema/                # (Optional) Any schema or metadata
+├── requirements.txt           # Python dependencies
+├── Dockerfile                 # Docker image setup
+├── README.md                  # Documentation
+└── .venv/                     # Virtual environment (optional, local only)
+```
 
 ---
 
@@ -44,3 +47,18 @@ CHALLENGE_1A/
 
 ```bash
 pip install -r requirements.txt
+
+## 📦 Docker Image
+
+•⁠  ⁠Image Name: amdipumondal/challenge_1a
+•⁠  ⁠Available Tags: tagname
+•⁠  ⁠Platform: python:3.10-slim
+
+---
+
+## 📥 Pull the Image
+
+To pull the image from Docker Hub:
+
+```bash
+docker pull amdipumondal/challenge_1a:tagname

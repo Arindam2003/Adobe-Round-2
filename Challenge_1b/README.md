@@ -16,6 +16,7 @@ This project extracts, ranks, and summarizes the most relevant sections from PDF
 
 ## 🗂️ Project Structure
 
+```
 challenge_1b/
 ├── main.py # Main analysis script
 ├── Dockerfile # Docker setup
@@ -28,7 +29,7 @@ challenge_1b/
 │ ├── challenge1b_input.json
 │ └── PDFs/
 │ └── doc1.pdf
-
+```
 
 # 🐳 Docker: Challenge 1B - PDF Analyzer
 
